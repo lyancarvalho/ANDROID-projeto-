@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fale Conosco</title>
+    <style>
+    @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+@font-face {
+    font-family: 'Android';
+    src: url(../fontes/idroid.otf);
+    font-weight: normal;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+    :root {
+    --cor0: #e6dca8;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+    --cor6: #dbffebef;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Young Serif', serif;;
+    --fonte-android: 'Android', Arial; 
+}
+
+    body {
+        background-color: rgb(190, 175, 134);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    header {
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+header > h1 {
+    font-family: var(--fonte-destaque);
+    color:#ffffff;
+    font-size: 3em;
+    font-weight: normal;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.623);
+}
+
+header > p {
+    color: white;
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+    max-width: 500px;
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.628);
+}
+
+nav {
+    background-color: var(--cor5);
+    padding: 10px;
+    box-shadow: 0px 7px 7px black;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+}
+
+nav > a:hover {
+    background-color: var(--cor3);
+    color: var(--cor5);
+}
+
+main {
+    min-width: 237px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.519);
+    border-radius: 0px 0px 10px 10px;
+}
+
+main h1 {
+    color: var(--cor5);
+    font-weight: normal;
+    font-family: var(--fonte-android);
+}
+
+main h2 {
+    color: var(--cor5);
+    font-family: var(--fonte-android);
+    font-size: 1.3em;
+    font-weight: normal;
+    background-image: linear-gradient(to right, var(--cor3), var(--cor6));
+    text-indent: 8px;
+    padding: 8px;
+    margin: 30px;
+}
+
+main p {
+    padding: 15px 0px 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.7em;
+    font-size: 1.1em;
+}
+
+main article {
+    margin: auto;
+    display: block;
+}
+
+aside {
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.568);
+}
+
+aside > ul {
+    list-style-type: '\2714\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+
+aside > h3 {
+    background-color: var(--cor4);
+    color: white;
+    padding: 5px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+footer {
+    background: var(--cor4);
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 15px;
+}
+
+footer a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: var(--cor1);
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fale Conosco</h1>
+        <p>Aqui está nosso meio de contato! se precisar de qualquer ajuda e so vir aqui.</p>
+    </header>
+    <nav>
+        <a href="../android.html">Home</a>
+    </nav>
+    <main>
+        <h1>NOSSO WHATSAPP</h1>
+        <h2>abaixo esta nosso whatsapp para meio de contato e suporte!</h2>
+        <article>
+            <picture>
+                <source media="(max-width: 320px)" srcset="../imagens/tel-p-ctt-ppp.png">
+                <source media="(max-width: 480px)" srcset="../imagens/tel-p-ctt-pp.png">
+                <source media="(max-width: 510px)" srcset="../imagens/tel-p-ctt-m.png">
+                <source media="(max-width: 936px)" srcset="../imagens/tel-p-ctt-P.png">
+                <img src="../imagens/tel-p-ctt-G.png" alt="telefone pra contato">
+            </picture>
+        </article>
+    </main>
+    <footer>
+        <a href="https://api.whatsapp.com/send?phone=5561984129902&text=ola!%20vim%20pelo%20seu%20site,%20preciso%20de%20ajuda%20em%20algo." target="_blank">telefone para contato <strong>(61) 98412-9902</strong></a>
+    </footer>
+</body>
+</html>
