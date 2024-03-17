@@ -28,7 +28,7 @@
 }
 
 body {
-    background-color: rgb(190, 175, 134);
+    background-color: rgba(37, 71, 33, 0.692);
     font-family: var(--fonte-padrao);
 }
 
@@ -44,7 +44,7 @@ header {
 }
 
 header > h1 {
-    font-family: var(--fonte-destaque);
+    font-family: var(--fonte-android);
     color:#ffffff;
     font-size: 3em;
     font-weight: normal;
